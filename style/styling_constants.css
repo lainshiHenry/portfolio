@@ -1,0 +1,25 @@
+* {
+    /* Body */
+    --primaryTextColor: #2D3047;
+    --primaryBackgroundColor: #EDF2F4;
+
+    /* Header */
+    --primaryHeaderBackgroundColor: #2D3047;
+    --primaryHeaderTextColor: white;
+
+    /* Footer */
+    --primaryHeaderBackgroundColor: #2D3047;
+    --primaryHeaderTextColor: white;
+
+    /* Hero Section */
+    --primaryHeroBackgroundColor: #00b4d8;
+    --primaryHeroTextColor: FFFFFF;
+
+    /* Anchor Links */
+    --primaryAnchorColor: #F2545B;
+
+    /* Button */
+    --primaryButtonColor: #F2545B;
+    --primaryButtonHoverColor: #2A9D8F;
+    --primaryButtonFocusColor: #2A9D8F;
+}

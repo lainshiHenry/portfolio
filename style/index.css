@@ -1,0 +1,117 @@
+    @import './styling_constants.css';
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--primaryBackgroundColor);
+        color: var(--primaryTextColor);
+    }
+
+    header {
+        background-color: var(--primaryHeaderBackgroundColor);
+        color: var(--primaryHeaderTextColor);
+        padding: 2rem;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    nav {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    nav a {
+        color: var(--primaryAnchorColor);
+        margin: 0 1rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primaryHeroBackgroundColor);
+        padding: 3rem 1rem;
+        color: var(--primaryHeroTextColor);
+        text-align: center;
+    }
+
+    .hero img {
+        border-radius: 50%;
+        width: 150px;
+        margin-right: 2rem;
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .contact {
+        padding: 2rem 1rem;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .about h2,
+    .skills h2,
+    .projects h2,
+    .contact h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .skills ul,
+    .projects ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .skills li,
+    .projects li {
+        background-color: white;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact input,
+    .contact textarea {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+    .contact button {
+        padding: 1rem;
+        background-color: var(--primaryButtonColor);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .contact button:hover,
+    button:focus {
+        background-color: var(--primaryButtonHoverColor);
+        border: 2px solid black;
+    }
+
+    footer {
+        background-color: var(--primaryHeaderBackgroundColor);
+        color: var(--primaryHeaderTextColor);
+        text-align: center;
+        padding: 1rem 0;
+    }
